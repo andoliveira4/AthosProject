@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.cssGray
+{
+  color:#aaaaaa;
+}
+
+.cssCabecalho{
+  width: 100%;
+  /*background-color: #1aba9c;*/
+  padding:0px;
+  margin:0px;
+  min-height:161px;
+  /*background-image: url("http://programasaudebemestar.com.br/im/logo_sharecare.png");*/
+  background-repeat: no-repeat;
+  
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;    
+}
+
+
+.navbar-nav > li {    
+  float: none;
+  display: inline-block;  
+  margin-left:30px; 
+  font-size:15px;
+}
+
+.cssRemover
+{
+  color:red;
+}
+
+.cssMask
+{
+        vertical-align:middle;   
+        z-index: 99999999;
+        position: fixed;
+        top:0%;
+        left:0%;
+        text-align:center;   
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: Verdana;
+        filter:alpha(opacity=30);
+        opacity:0.5;
+} 
+
+.cssLoader
+{
+  height: 40px;
+  margin: auto; 
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  
+}
